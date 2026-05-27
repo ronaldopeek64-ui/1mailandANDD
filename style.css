@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; background: #f4f6f9; color: #333; padding: 20px; }
+.container { max-width: 600px; margin: 0 auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.email-box { display: flex; gap: 10px; margin-bottom: 20px; }
+input { flex: 1; padding: 10px; font-size: 16px; border: 1px solid #ddd; border-radius: 4px; }
+button { padding: 10px 15px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background: #0056b3; }
+#refresh-btn { width: 100%; margin-bottom: 20px; background: #28a745; }
+#refresh-btn:hover { background: #218838; }
+.letter { background: #f8f9fa; border: 1px solid #e9ecef; padding: 15px; border-radius: 4px; margin-bottom: 15px; }
+.letter h3, .letter h4 { margin: 0 0 5px 0; }
+.letter-body { margin-top: 10px; font-size: 14px; white-space: pre-wrap; }

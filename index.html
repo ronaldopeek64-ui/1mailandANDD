@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Временная Почта</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ваша одноразовая почта</h1>
+        <div class="email-box">
+            <input type="text" id="email-address" readonly placeholder="Генерация...">
+            <button id="copy-btn">Копировать</button>
+        </div>
+        <button id="refresh-btn">Обновить письма</button>
+        
+        <h2>Входящие письма</h2>
+        <div id="letters-container">
+            <p class="empty-text">Писем пока нет. Ожидание...</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

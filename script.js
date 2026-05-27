@@ -1,4 +1,4 @@
-const API_URL = 'https://1secmail.com'; // Исправлен URL API
+const API_URL = 'https://1secmail.com';
 let currentEmail = '';
 let login = '';
 let domain = '';
